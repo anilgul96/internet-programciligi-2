@@ -9,6 +9,7 @@ Emlak İlanlarının Türe göre Filtre Edilmesi: Bu bileşen, emlak ilanların�
 
 İlanların Kategorize Edilmesi: Bu bileşen, ilanı kategoriye göre filtrelemek, aramak ve listelemek için kullanılır.
 
-![veriTabaniSemasi](https://user-images.githubusercontent.com/115142182/236683820-48d54949-8e4b-4083-b604-1d1c60596d3f.png)
+![tabledbo](https://github.com/anilgul96/internet-programciligi-2/assets/115142182/43ae6e3b-4865-4dc3-96de-5878056e6426)
+
 ![SWAGGER](https://user-images.githubusercontent.com/115142182/236683821-409e52e9-8999-41db-9482-6222c67f72ad.png)
 ![SWAGGER2](https://user-images.githubusercontent.com/115142182/236683824-51e69ff8-8a96-44fd-8dd7-7a347035b739.png)
