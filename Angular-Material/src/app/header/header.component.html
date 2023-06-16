@@ -1,0 +1,11 @@
+
+<mat-toolbar color="primary" class="header">
+    <span>EMLAK PORTALI</span>
+
+    <div class="menu-link">
+        <a mat-button mat-stroked-button routerLink="/ilanlar">ilanlar</a>
+        <a mat-button mat-stroked-button routerLink="/kategoriler">kategoriler</a>
+        <a mat-button mat-stroked-button routerLink="/kullanicilar">Kullanıcılar</a>
+        <a mat-button mat-stroked-button routerLink="/giris" *ngIf="!isLoggedIn()">Giriş</a>
+    </div>
+</mat-toolbar>

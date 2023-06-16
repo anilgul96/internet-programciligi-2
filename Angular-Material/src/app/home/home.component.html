@@ -1,0 +1,19 @@
+<!-- app.component.html -->
+
+<div class="content">
+    <h1>TÜRKİYENİN EN BÜYÜK EMLAK ŞİRKETİ</h1>
+    <mat-card *ngFor="let item of ilanlar">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image">
+                <img src="{{ item.ilanResim }}" style="width: 100%;">
+            </div>
+            <mat-card-title>{{ item.ilanAdi }}</mat-card-title>
+            <mat-card-subtitle>{{ item.ilanFiyati }}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+            <p>
+                {{ item.ilanDetay }}
+            </p>
+        </mat-card-content>
+    </mat-card>
+</div>
